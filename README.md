@@ -16,15 +16,15 @@ Run:
 cd linear_regression && pip install -r requirements.txt && python linear_regression_demo.py
 ```
 
-2. Logistic Regression Demo
+2. Logistic Regression Iris Demo
 This demo shows a logistic regression model for iris flower classification using scikit-learn.
 
 ### Files
-- `logistic_regression_demo.ipynb`: Jupyter notebook implementing the logistic regression model
+- `logistic_regression_demo_iris_classification.ipynb`: Jupyter notebook implementing the logistic regression model
 - `requirements.txt`: Dependencies for the project
 
 ### Usage
 Run:
 ```sh
-cd logistic_regression && pip install -r requirements.txt && jupyter notebook logistic_regression_demo.ipynb
+cd logistic_regression_iris && pip install -r requirements.txt && jupyter notebook logistic_regression_demo_iris_classification.ipynb
 ```
