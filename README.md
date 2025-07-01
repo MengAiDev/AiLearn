@@ -1,6 +1,7 @@
 # AiLearn - My AI Learning Project
 
 This repository contains my projects and experiments as I learn about artificial intelligence and machine learning.
+Thanks for the bilibili video: https://www.bilibili.com/video/BV1VZMLzMEUY
 
 ## Projects: 
 1. Linear Regression Demo
@@ -27,4 +28,17 @@ This demo shows a logistic regression model for iris flower classification using
 Run:
 ```sh
 cd logistic_regression_iris && pip install -r requirements.txt && jupyter notebook logistic_regression_demo_iris_classification.ipynb
+```
+
+3. Logistic Regression Exam Demo
+This demo shows a logistic regression model to predict exam pass/fail based on Exam1 and Exam2 scores, comparing linear and quadratic decision boundaries.
+
+### Files
+- `logistic_regression_demo_exam.ipynb`: Jupyter notebook implementing the logistic regression model
+- `examdata.csv`: Dataset containing exam scores and pass/fail results
+
+### Usage
+Run:
+```sh
+cd logistic_regression_exam && jupyter notebook logistic_regression_demo_exam.ipynb
 ```
