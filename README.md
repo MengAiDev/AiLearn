@@ -42,3 +42,18 @@ Run:
 ```sh
 cd logistic_regression_exam && jupyter notebook logistic_regression_demo_exam.ipynb
 ```
+
+4. 2D Data Cluster Classifier Demo  
+This project demonstrates clustering and classification algorithms on 2D data, including KMeans, KNN, MeanShift, and DBSCAN, with visualization and accuracy evaluation.
+
+#### Files
+- `2Ddata_cluster classifier/demo.ipynb`: Jupyter notebook with code and visualizations
+- `2Ddata_cluster classifier/data.csv`: Example dataset (not included, user should provide)
+- `2Ddata_cluster classifier/README.md`: Project-specific instructions
+
+#### Usage
+Run:
+```sh
+cd "2Ddata_cluster classifier" && jupyter notebook demo.ipynb
+```
+See the project README for details on requirements and usage.
