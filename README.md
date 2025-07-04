@@ -57,3 +57,40 @@ Run:
 cd "2Ddata_cluster classifier" && jupyter notebook demo.ipynb
 ```
 See the project README for details on requirements and usage.
+
+5. Anomaly Detection Demo
+This project demonstrates anomaly detection techniques on sample data.
+
+### Files
+- `anomaly_detection/demo.ipynb`: Jupyter notebook with code and visualizations
+- `anomaly_detection/anomaly_data.csv`: Dataset for anomaly detection
+
+### Usage
+Run:
+```sh
+cd anomaly_detection && jupyter notebook demo.ipynb
+```
+
+6. Decision Tree Demo
+This project demonstrates decision tree algorithms and visualizations.
+
+### Files
+- `decision_tree/demo.ipynb`: Jupyter notebook with decision tree implementation
+
+### Usage
+Run:
+```sh
+cd decision_tree && jupyter notebook demo.ipynb
+```
+
+7. PCA Demo
+This project demonstrates Principal Component Analysis (PCA) for dimensionality reduction.
+
+### Files
+- `PCA/demo.ipynb`: Jupyter notebook with PCA implementation
+
+### Usage
+Run:
+```sh
+cd PCA && jupyter notebook demo.ipynb
+```
